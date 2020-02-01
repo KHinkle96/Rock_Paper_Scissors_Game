@@ -7,9 +7,9 @@ function user(){
     console.log("User: " + userPick)
 
     let computerPick = Math.random();
-    if (computerPick < 0.25) {
+    if (computerPick < 0.33) {
         computerPick = "rock";
-    }else if (computerPick <= 0.6) {
+    }else if (computerPick <= 0.66) {
         computerPick = "paper";
     }else{
         computerPick = "scissors";
